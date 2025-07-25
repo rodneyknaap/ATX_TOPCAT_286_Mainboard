@@ -26,7 +26,8 @@ When connecting this system to a computer network which contains stored informat
 When building this project, the builder assumes personal responsibility for troubleshooting it and using the necessary care and expertise to make it function properly as defined by the design. You can email me with questions, but I will reply only if I have time and if I find the question to be valid. Which will probably also lead to an update here. I want to primarily dedicate my time to new project development, I am not able to do any user support, so that's why I provide the elaborate info here which will be expanded if needed.
 
 # About this project
-This project is a design for a ATX 286 mainboard based on the VLSI VL82C320 / VL82C331 chipset.
+This project is a design for a ATX 286 mainboard based on the VLSI VL82C320 / VL82C331 "TOPCAT" chipset.
+This chipset supports both the 286 and the 386SX CPU.
 The 286 was chosen instead of a 386SX because I find it more interesting to experiment with this CPU and I want to enhance the performance and operation by using overclocking.
 
 After developing the CPLD based 286 ATX mainboard REV1, I got interested in the RealDOOM project developed by Patrick (sqpat).

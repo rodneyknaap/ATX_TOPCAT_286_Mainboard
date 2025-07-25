@@ -43,6 +43,11 @@ This mainboard is a simple experiment, not a fully integrated mainboard such as 
 
 If this mainboard is able to function, there is a secondary goal, which is to try to interface the DRAM operation of the VL82C320 to fast SRAM memory using a CPLD chip which translates the DRAM controls into SRAM signals. There are a few ways to try to go about this, and tests will indicate if any of these methods are able to be successful. Depending on the results, I may do similar work on other 286 chipsets.
 
+Initially, the mainboard is designed to be able to run on 30 pin SIMMs. For example 1MB per SIMM capacity.
+The mainboard can be operated without the CPLD and SRAM modules initially, though it is probably better to solder the CPLD and all the other SMD ICs to the board first to make sure these can be reached well for hand soldering, before adding the rest of the components which may make soldering the SMD parts more difficult.
+On the bottom of the PCB are most of the passive components for this design. a PDF placement diagram is included.
+On the memory module bottom side there are only 100nF bypass capacitors needed.
+
 # Project status
 
 The status is currently that the mainboard design is finished, however it has not been manufactured, built and verified yet.

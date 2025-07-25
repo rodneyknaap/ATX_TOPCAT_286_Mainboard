@@ -43,10 +43,12 @@ This mainboard is a simple experiment, not a fully integrated mainboard such as 
 
 If this mainboard is able to function, there is a secondary goal, which is to try to interface the DRAM operation of the VL82C320 to fast SRAM memory using a CPLD chip which translates the DRAM controls into SRAM signals. There are a few ways to try to go about this, and tests will indicate if any of these methods are able to be successful. Depending on the results, I may do similar work on other 286 chipsets.
 
+# Project status
+
 The status is currently that the mainboard design is finished, however it has not been manufactured, built and verified yet.
 As soon as I have had the chance to do this I will update here in this repository.
 
-I will also detail more things such as suitable BIOS, CPLD programming files etc depending on the test results.
+I will also detail more things such as which BIOS may be suitable to run this mainboard, CPLD programming files etc depending on the test results.
 Updates will follow accordingly.
 
 Kind regards,

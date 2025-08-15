@@ -52,14 +52,17 @@ On the memory module bottom side there are only 100nF bypass capacitors needed.
 
 # Project status (updated 15-8-2025)  
 
-![A photo of the test setup](Img_6319s.jpg)  
-
 ![A photo of the mostly assembled board](Img_6325s.jpg)  
+A photo of the mostly assembled board
+
+![A photo of the test setup](Img_6319s.jpg)  
+A photo of the test setup used for debugging
 
 ![AMI BIOS full POST](Img_6312s.jpg)  
+AMI BIOS showing a full POST
 
 ![RealDOOM 030 running on the system](Img_6323s.jpg)  
-
+RealDOOM is verified to run on this 286 based system design
 
 I have debugged and tested the PCB, a few small issues are now fixed and I will update all the files including the gerbers to contain the updates shortly.
 The board is currently under evaluation for further testing to achieve higher CPU clock frequencies with a Harris 20MHz rated 286 CPU.

@@ -88,10 +88,10 @@ The next development steps will be:
 
 Currently the BIOS available for testing is extremely limited in terms of chipset control and user configurable options.  
 Which affects the work I am able to do on the board.
-Possibly in the future a better BIOS can be obtained to work with.
-I am currently also seeking the AST BRAVO BIOS, if anyone has this board and able to do so, please upload this BIOS to The Retro Web and send me a message, thank you in advance!  
-The BIOS I am looking for is the one which supports a 286 CPU module on this board:  
-https://theretroweb.com/motherboards/s/ast-bravo-286-386sx-202382-001,-002,-005  
+Possibly in the future a better BIOS can be available to work with.
+Possibly an adaptation of this BIOS by modifying any 386 based instructions:
+https://theretroweb.com/motherboard/bios/82340sx-16-63c00df7d6911253072552.zip
+This BIOS is great for configuring cycle options and disabling parity checking, however probably contains 386SX instructions because it doesn't work on a 286.
 
 Kind regards,
 

@@ -73,7 +73,7 @@ However all modifications I am doing right now are easy to manually do as well w
 For example soldering some resistor networks on one of the ISA slot connectors, etc.  
 
 In terms of what BIOS will work with this project:  
-This page documents trigem VLSI board:  
+This page documents the Trigem VLSI board:  
 https://theretroweb.com/motherboards/s/trigem-tg286e-plus#bios  
 The AMI BIOS can be downloaded there.  
 This BIOS is not ideal and the memory test needs to be skipped because parity cannot be disabled in this BIOS.  

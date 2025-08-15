@@ -7,6 +7,8 @@ The project consists of a ATX mainboard and a SRAM module design, and is intende
 
 ![Back side of the PCB](TOPCAT_REV1_Completed_BACK.png)  
 
+
+
 ## Purpose and permitted use, cautions for a potential builder of this design  
 
 This project was created for historical purposes out of love for historical computing designs and for the purpose of enabling computing enthousiasts with a sufficient level of building and troubleshooting expertise to be able to experience the technology by building and troubleshooting the hardware described in this project. Due to the level of this project, it may be suitable as a project for students to get into. If there are any questions from teachers who like to teach about this technology I would be happy to answer them. It may be really interesting to analyse the elaborate and complex CPU timing and 8 bit to 16 bit data byte translation and DMA mechanisms in an educational setting.
@@ -53,6 +55,11 @@ On the memory module bottom side there are only 100nF bypass capacitors needed.
 ![A photo of the test setup](Img_6319s.jpg)  
 
 ![A photo of the mostly assembled board](Img_6325s.jpg)  
+
+![AMI BIOS full POST](Img_6312s.jpg)  
+
+![RealDOOM 030 running on the system](Img_6325s.jpg)  
+
 
 I have debugged and tested the PCB, a few small issues are now fixed and I will update all the files including the gerbers to contain the updates shortly.
 The board is currently under evaluation for further testing to achieve higher CPU clock frequencies with a Harris 20MHz rated 286 CPU.

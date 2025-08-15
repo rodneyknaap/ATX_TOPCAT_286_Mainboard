@@ -48,13 +48,40 @@ The mainboard can be operated without the CPLD and SRAM modules initially, thoug
 On the bottom of the PCB are most of the passive components for this design. a PDF placement diagram is included.
 On the memory module bottom side there are only 100nF bypass capacitors needed.
 
-# Project status
+# Project status (updated 15-8-2025)  
 
-The status is currently that the mainboard design is finished, however it has not been manufactured, built and verified yet.
-As soon as I have had the chance to do this I will update here in this repository.
+![A photo of the test setup](Img_6319s.jpg)  
 
-I will also detail more things such as which BIOS may be suitable to run this mainboard, CPLD programming files etc depending on the test results.
-Updates will follow accordingly.
+![A photo of the mostly assembled board](Img_6325s.jpg)  
+
+I have debugged and tested the PCB, a few small issues are now fixed and I will update all the files including the gerbers to contain the updates shortly.
+The board is currently under evaluation for further testing to achieve higher CPU clock frequencies with a Harris 20MHz rated 286 CPU.
+Currently the board is verified up to 16MHz, and being investigated/tested for higher speeds.  
+
+After concluding that work I will update the gerbers to reflect the system under testing.
+However all modifications I am doing right now are easy to manually do as well with the current layout.
+For example soldering some resistor networks on one of the ISA slot connectors, etc.  
+
+In terms of what BIOS will work with this project:  
+This page documents trigem VLSI board:  
+https://theretroweb.com/motherboards/s/trigem-tg286e-plus#bios  
+The AMI BIOS can be downloaded there.  
+This BIOS is not ideal and the memory test needs to be skipped because parity cannot be disabled in this BIOS.  
+Since I will be developing SRAM conversion in the future which is one of the design goals, I am not using any parity in the board design.  
+
+I have confirmed full boot using XT-IDE in lite mode in order to support RealDOOM which is verified to fully work with this project board.  
+
+The next development steps will be:  
+- increasing the clock frequency
+- adding SRAM conversion using the CPLD on the board
+- eliminating DRAM completely
+
+Currently the BIOS available for testing is extremely limited in terms of chipset control and user configurable options.  
+Which affects the work I am able to do on the board.
+Possibly in the future a better BIOS can be obtained to work with.
+I am currently also seeking the AST BRAVO BIOS, if anyone has this board and able to do so, please upload this BIOS to The Retro Web and send me a message, thank you in advance!  
+The BIOS I am looking for is the one which supports a 286 CPU module on this board:  
+https://theretroweb.com/motherboards/s/ast-bravo-286-386sx-202382-001,-002,-005  
 
 Kind regards,
 

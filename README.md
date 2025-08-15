@@ -58,7 +58,7 @@ On the memory module bottom side there are only 100nF bypass capacitors needed.
 
 ![AMI BIOS full POST](Img_6312s.jpg)  
 
-![RealDOOM 030 running on the system](Img_6325s.jpg)  
+![RealDOOM 030 running on the system](Img_6323s.jpg)  
 
 
 I have debugged and tested the PCB, a few small issues are now fixed and I will update all the files including the gerbers to contain the updates shortly.
